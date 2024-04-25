@@ -8,3 +8,23 @@ body{
     text-align: center;
     margin-top: 10%;
 }
+
+.overflow{
+    overflow: scroll;
+}
+
+.container_flex{
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    flex-grow: 1;
+}
+
+.container_flex ul{
+    background-color: aliceblue;
+    
+
+}
